@@ -20,7 +20,6 @@ body{
 /* navber */
 .navber{
     display: flex;
-    border: 2px solid black;
     justify-content: space-between;
     align-items: center;
     width: 90%;
@@ -54,4 +53,46 @@ body{
 #home{
     font-size: 1.15rem;
     font-weight: 700;
+}
+.travel-container{
+    max-width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 16px;
+    background-image:linear-gradient(180.00deg, rgba(19, 19, 24, 0.8),rgba(19, 19, 24, 0) 100%), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.travel-title{
+    color: rgb(255, 255, 255);
+    font-size: 4rem;
+    font-weight: 800;
+}
+.travel-dis{
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-weight: 400;
+}
+.travel-input{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 16px;
+}
+input,select{
+    border-radius: 8px;
+    font-size:1rem;
+    background: rgb(255, 255, 255);
+    width: 174px;
+    height: 40px;
+    margin-right: 24px;
+    border: none;
+    padding-left: 15px;
+    color: rgba(19, 19, 24, 0.5)
+    
 }
