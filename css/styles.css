@@ -199,3 +199,44 @@ input,select{
     transform: translate(-50%,-50%);
 
 }
+.hem-ber{
+    display: none;
+}
+
+/* moblie device responsive */
+@media screen and (max-width: 576px){
+    .nav-menu-items{
+        display: none;
+    }
+    .hem-ber{
+        display:block;
+        font-size: 26px;
+        
+    }
+    .brand h3{
+        font-size: 1.50rem;
+    }
+    .travel-container{
+        width: 335px;
+        height: 483px;
+        margin-top: 17px;
+    }
+    .travel-title{
+        font-size: 1.35rem;
+        margin-top: 32px;
+    }
+.travel-dis{
+   font-size: .90rem;
+
+}
+.travel-input{
+    flex-direction: column;
+    padding: 16px;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+input,select{
+    margin-left: 15px;
+}
+}
